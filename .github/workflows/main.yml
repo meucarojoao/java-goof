@@ -25,7 +25,7 @@ jobs:
         id: riskscoreFromDT
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://srv-pc-dt.westus2.cloudapp.azure.com:8080'
+          url: 'https://srv-pc-dt.westus2.cloudapp.azure.com:8081'
           key: '${{ secrets.SECRET_OWASP_DT_KEY }}'
           language: 'java'
       
